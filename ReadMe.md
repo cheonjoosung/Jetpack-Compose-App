@@ -17,3 +17,14 @@
   + 패딩, 마진 영역을 상하좌우 각각 설정 가능
   + onClick, modifier, enabled, shape, colors, elevation, border, contentPadding
   interactionSource, content
+
+- Modifier
+  + Component 의 크기, 색상, 패딩, 여백 변경 동작 처리
+  + 사용자 입력, 클릭, 스크롤, 드래그 등의 상호작용 처리
+
+- Surface
+  + 머터리얼의 핵심적인 메타포
+  + clipping, elevation, borders, background, content color, blocking touch
+    (뒤쪽으로 터치를 전달하지 않음)
+  + UI 개발의 기본
+  + color 를 설정한 경우 하위 컴포넌트 일괄 적용
